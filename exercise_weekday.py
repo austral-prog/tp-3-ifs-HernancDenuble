@@ -17,4 +17,12 @@ def weekday():
         Para la entrada "domingo", la salida esperada es:
         Fin de semana
     """
-    pass
+    weekday = input("Ingrese un dia de la semana: ")
+
+    var = weekday.lower()
+
+    if not (var == "sabado" or var == "domingo"):
+        print("Dia habil")
+    else:
+        print("Fin de semana")
+#weekday()
