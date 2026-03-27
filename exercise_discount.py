@@ -28,7 +28,6 @@ def discount():
     unidades = int(input())
     subtotal = precio_unitario * unidades
 
-
     if unidades >= 10:
         desc1 = "20%"
         descuento = (subtotal * 20) / 100
